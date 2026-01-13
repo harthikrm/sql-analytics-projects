@@ -51,7 +51,7 @@ LIMIT 10;
 -- Expected Output:
 -- A single row showing the average order value.
 
-SELECT avg(revenue) as Average Revenue
+SELECT avg(revenue) as average_order_value
 FROM orders;
 
 -- Business Question:
